@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/pedidoConfirmar.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
+    <title>Uber Delivery</title>
+</head>
+<body>
+    <div id="pedidoConfirmar">
+        <div id="borda"></div>
+        <div id="pedidoDetail">
+            <img src="../assets/moto.png" id="icnMoto" alt="">
+            <div id="pedidoText">
+                <span id="pedidoTit">Uber Delivery</span>
+                <p id="texto">Horário de coleta: 14:30 <br>
+                   Horário de entrega: 15:30
+                </p>
+            </div>
+            <span id="preco">R$10,30</span>
+        </div>
+        <span id="produtoDimensoes">Produto de 15cm x 15cm x 15cm</span>
+        <div id="produtoCaracteristica">
+            
+            <div id="prodToxico">
+                <img src="../assets/icnToxico.png" name="toxico" class="icnSlt" alt="">
+                <label for="toxico">Tóxico</label>    
+            </div>
+        </div>
+        <a href="mapConfirmadoPed.html" id="btnConfirmar">CONFIRMAR ENTREGA</a>
+    </div>
+
+    <div id="map" class="mapPedConfirmar">
+    </div>
+    <script src="../js/map.js"></script>
+</body>
+</html>

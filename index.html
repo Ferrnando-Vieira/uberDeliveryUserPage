@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
+    <title>Uber Delivery</title>
+</head>
+<body>
+
+    <img src="assets/btnList.PNG" class="btnList" alt="">
+
+    <div id="map">
+
+        <div id="menu">
+            <div id="container">
+                <div id="inicio">
+                    <span id="introMsg" class="mainMsg">Bom dia, Júlia</span><br>
+        
+                    <div id="what">
+                        <label for="whatDlv">O que entregar?</label> 
+                        <input type="text" name="whatDlv" id="whatDlv">
+                    </div>
+    
+                    <div id="where">
+                        <label for="whereDlv">Onde quer entregar?</label> 
+                        <input type="text" name="whereDlv" id="whereDlv">
+                    </div>
+    
+                    <a href="pages/medidas.html" role="button">
+                        <img src="assets/btnNext.png" class="btnNext" alt="">
+                    </a>
+    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="map.js"></script>
+</body>
+</html>

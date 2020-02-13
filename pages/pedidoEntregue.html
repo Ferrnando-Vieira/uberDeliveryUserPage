@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/pedidoEntregue.css">
+    <link rel="stylesheet" href="../styles/mapConfirmadoPed.css">
+    <link rel="stylesheet" href="../styles/pedidoConfirmar.css">
+    <title>Uber Delivery</title>
+</head>
+<body>
+    <div id="pedidoEntregueDiv">
+        <div id="iconePedEntregue">
+            <img src="../assets/icnEntregue.png" id="icnEntregue" alt="">
+            <span id="pedidoEntregueText">Sua entrega foi feita!</span>
+        </div>
+        <div id="infoPedidoEntregue">        
+            <span id="produtoDimensoes">Produto de 15cm x 15cm x 15cm</span>
+            <div id="produtoCaracteristica">
+                <div id="prodFragil">
+                    <img src="../assets/icnFragil.png" name="fragil" class="icnSlt" alt="">
+                    <label for="fragil">Frágil</label>
+                </div>
+                <div id="prodInfla">
+                    <img src="../assets/icnInflamavel.png" name="inflamavel" class="icnSlt" alt="">
+                    <label for="inflamavel">Inflamável</label>
+                </div>
+                <div id="prodToxico">
+                    <img src="../assets/icnToxico.png" name="toxico" class="icnSlt" alt="">
+                    <label for="toxico">Tóxico</label>    
+                </div>
+            </div>
+            <p id="textoHoraEntregue">Horário de coleta: 14:30 <br>
+                Horário de entrega: 15:30
+            </p>
+            <div id="localizacaoDeliv">
+                <span id="LocTit">Localizacao</span>
+                <div id="enderecoDeliv">
+                    <img src="../assets/icnLoc.png" alt="">
+                        <span>Avenida Vilarinho, 1015, Venda Nova - BH </span>
+                </div>   
+            </div>
+
+            <div id="pagamentoDiv">
+                <span id="LocTit">Pagamento</span>
+                <div id="pagamentoInfo">
+                    <div id="pagamento">
+                        <span id="preco" class="separaReal">R$10,30</span>
+                        <div id="cartao">
+                            <img src="../assets/creditcard.png" alt="">
+                            <span id="finalCartao">2579</span>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+            <div id="btnFinalizar">
+                <a href="classificarDeliv.html" id="btnConfirmar">FINALIZAR</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

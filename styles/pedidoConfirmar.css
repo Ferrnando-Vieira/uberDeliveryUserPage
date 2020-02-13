@@ -1,0 +1,18 @@
+#pedidoDetail, #delivDetail, #delivInfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#delivDetail {
+    margin: 25px 0;
+}
+
+#prodFragil, #prodInfla, #prodToxico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+    font-size: 0.5rem;
+    line-height: 15px;
+}

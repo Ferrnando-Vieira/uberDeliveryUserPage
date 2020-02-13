@@ -1,0 +1,81 @@
+#classificarMoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #C4C4C4;
+    height: 50%;
+}
+
+#motoboy {
+    margin: 20px;
+}
+
+#btnElogio {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 90px;
+    padding: 5px 18px;
+    margin: 20px auto; 
+    box-shadow: 1px 1px 5px #000;
+}
+
+#icnElogio {
+    max-width: 28px;
+    max-height: 28px;
+    width: auto;
+    height: auto;
+    margin-right: 7px;
+}
+
+#elogio {
+    font-size: 1em;
+    line-height: 20px;
+}
+
+#gorgetaDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 33%;
+}
+
+#gorgeta {
+    margin-top: 10%;
+    font-size: 1.1em;
+    line-height: 20px;
+}
+
+.valGorgeta {
+    padding: 26px 20px;
+    border: 1px solid rgb(94, 78, 78);
+    border-radius: 50%;
+}
+
+#opcGorgeta {
+    display: flex;
+    justify-content: space-around;    
+    width: 100%;
+}
+
+.selecionada {
+    background-color: #D3AA6A;
+    color: #FFF;
+}
+
+#outroValor {
+    font-size: 0.9em;
+    line-height: 20px;
+    color: #D3AA6A;
+}
+
+#divBtnGorgeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    height: 20%;
+}

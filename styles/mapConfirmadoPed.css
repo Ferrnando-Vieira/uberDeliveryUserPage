@@ -1,0 +1,116 @@
+#cartao {
+    display: flex;
+    align-items: baseline;
+}
+
+#localizacaoDeliv, #pagamentoDiv {
+    width: 90%;
+    margin: auto;
+}
+
+#LocTit {
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 20px;
+    color: #C4C4C4;
+}
+
+#enderecoDeliv {
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+
+#finalCartao {
+    font-weight: bold;
+    font-size: 0.7rem;
+    line-height: 20px;
+    color: #C4C4C4;
+}
+
+#preco {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 20px;
+}
+
+#pagamentoInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#motoModel {
+    display: flex;
+    align-items: center;
+}
+
+#placa {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 32px;  
+}
+
+#nomeMoto {
+    font-size: 0.9rem;
+    line-height: 20px;
+    text-align: right;
+    color: #C4C4C4;
+}
+
+#pedidoConfirmado {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 70%;
+}
+
+#rank {
+    display: flex;
+    align-items: center;
+}
+
+#numRank {
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+
+#icnMotoInfo {
+    max-width: 25px;
+    max-height: 25px;
+    width: auto;
+    height: auto;
+}
+
+#ligarDeliv {
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+#telefone {
+    display: flex;
+    align-items: center;
+    color: #000;
+    background: #C4C4C4;
+    border-radius: 73px;
+    padding: 13px 17px;
+    font-size: 0.9rem;
+    line-height: 16px;
+}
+
+#opcAlterar {
+    display: flex;
+    align-items: center;
+}
+
+#icnSeta {
+    max-width: 1.1em;
+    max-height: 1.1em;
+    width: auto;
+    height: auto;
+}
+
+#alterar {
+    margin-right: 5px;
+}

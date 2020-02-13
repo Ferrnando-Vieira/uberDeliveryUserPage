@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/mapConfirmadoPed.css">
+    <link rel="stylesheet" href="../styles/pedidoConfirmar.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
+    <title>Uber Delivery</title>
+</head>
+<body>
+    <div id="pedidoConfirmado">
+        <div id="delivDetail">
+            <div id="delivInfo">
+                <img src="../assets/deliveryman.png" id="icnDeliv" alt="">
+                <div id="DelivRank">
+                    <span id="nomeDeliv">André</span>
+                    <div id="rank">
+                        <img src="../assets/star.png" alt="">
+                        <span id="numRank">4.8</span>
+                    </div>                
+                </div>
+            </div>
+            <div id="motoDelivInfo">
+                
+                <div id="motoModel">
+                    <img src="../assets/miniMoto.png" id="icnMotoInfo" alt="">
+                    <span id="nomeMoto">Honda PCX</span>             
+                </div>
+                <span id="placa">HGZ-3850</span> 
+            </div>
+        </div>
+
+        <a href="tel:+5531975449240" id="ligarDeliv">
+            <div id="telefone">
+                <img src="../assets/icnPhone.png" alt="">
+                <span id="textTel">Ligar para André</span>
+            </div>
+        </a>
+
+        <div id="localizacaoDeliv">
+           <span id="LocTit">Localizacao</span>
+           <div id="enderecoDeliv">
+               <img src="../assets/icnLoc.png" alt="">
+                <span>Avenida Vilarinho, 1015, Venda Nova - BH </span>
+           </div>   
+        </div>
+
+        <div id="pagamentoDiv">
+            <span id="LocTit">Pagamento</span>
+            <div id="pagamentoInfo">
+                <div id="pagamento">
+                    <span id="preco">R$10,30</span>
+                    <div id="cartao">
+                        <img src="../assets/creditcard.png" alt="">
+                        <span id="finalCartao">2579</span>
+                    </div>
+                </div>
+                <div id="opcAlterar">
+                    <span id="alterar">Alterar</span>
+                    <img src="../assets/icnSeta.png" id="icnSeta" alt="">
+                </div>
+            </div>            
+        </div>
+        <a href="#" id="btnConfirmar">CANCELAR COLETA</a>
+    </div>
+
+    <div id="map" class="mapPedConfirmado">
+    </div>
+    <script src="../js/map.js"></script>
+</body>
+</html>

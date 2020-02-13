@@ -1,0 +1,10 @@
+#caracteristicas {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dvFragil, #dvInfla, #dvToxico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

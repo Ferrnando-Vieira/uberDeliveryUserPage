@@ -1,0 +1,43 @@
+#pedidoEntregueDiv {
+    height: 100%;
+}
+
+#iconePedEntregue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #C4C4C4;
+    height: 30%;
+}
+
+#icnEntregue {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#pedidoEntregueText {
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 20px;
+}
+
+
+#infoPedidoEntregue {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65%;
+    margin: auto;
+}
+
+
+#textoHoraEntregue {
+    width: 90%;
+    margin: auto;
+    font-size: 0.9em;
+    line-height: 20px;
+}

@@ -1,0 +1,6 @@
+#largura, #comprimento, #altura, #valor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    font-size: 1.3rem;
+}

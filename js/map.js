@@ -37,18 +37,6 @@ map.on('load', function() {
             }
         }
     });
-
-
-
-
-
-
-
-
-
-
-
-
     map.addLayer({
         'id': 'route',
         'type': 'line',
@@ -81,22 +69,6 @@ map.on('load', function() {
                     }]
                 },
             }, );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             map.addLayer({
                 'id': 'points',

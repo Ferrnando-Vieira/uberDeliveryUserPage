@@ -54,21 +54,21 @@ input {
 .btnNext {
     width: 65px;
     height: 65px;
-    margin-top: 15%;
+    margin-top: 5%;
     float: right;
 }
 
 #btnNextMedida {
     width: 65px;
     height: 65px;
-    margin-top: 24%;
+    margin-top: 10%;
     float: right;
 }
 
 #btnNextCaracteristica {
     width: 65px;
     height: 65px;
-    margin-top: 81%;
+    margin-top: 21%;
     float: right; 
 }
 

@@ -75,7 +75,7 @@ map.on('load', function() {
                 'type': 'symbol',
                 'source': 'point',
                 'layout': {
-                    'icon-image': 'logouberviagem',
+                    'icon-image': '../assets/logouberviagem.jpg',
                     'icon-size': 0.03
                 }
             });
